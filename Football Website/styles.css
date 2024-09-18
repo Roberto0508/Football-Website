@@ -1,0 +1,206 @@
+body {
+    background: #000 url(./images/background.jpg) no-repeat;
+    background-color: #262626;
+	background-position: top center;
+    background-attachment: fixed;
+    box-align: center; 
+    vertical-align: top;
+    display:inline-block;
+    font: 12px/1.42857143 Lato, sans-serif;
+    color: #fff;
+    width: 80%;
+}
+
+.box {
+    background: #262626;
+    color: #f0f0f0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.44);
+    border-left: 1px solid rgba(0, 0, 0, 0.44);
+    border-right: 1px solid rgba(0, 0, 0, 0.44);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.boxhead {
+    background-color: #373737;
+    background-size: contain, auto 100px;
+    background-repeat: repeat, repeat;
+    background-position: center, right center;
+    position: relative;
+    border-bottom: 3px solid #3282b8;
+    height: 20px;
+    text-align: left;
+    line-height: 6px;
+    padding-left: 11px;
+    padding-top: 13px;
+    margin-top: -13px;
+    margin-left: -11px;
+    margin-right: -11px;
+    font-size: 12px;
+    color: #E0E0E0;
+    font-weight: 700;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.header {
+    background-color: #161616;
+    margin-left: 355px;
+    width: 1165px;
+}
+
+.logo {
+	background-image: url("./images/logo.jpg");
+	display: inline-block;
+    width: 1165px;
+    height: 186px;
+}
+
+.advertisement {
+    float: center;
+    padding-top: 45px;
+    margin-right: 45px;
+}
+
+.advertisement img {
+    border: 3px ridge #333;
+    transition: 0.7s;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.right_menu {
+    float: right;
+    margin-right: 1px;
+    width: 332px;
+}
+
+.left_menu {
+    float: left;
+    margin-left: 1px;
+    width: 830px;
+}
+
+.inner_s {
+    padding: 5px;
+    background-color: #141414;
+    border-radius: 5px;
+    border: 1px solid #373636;
+    box-shadow: inset 0 0 5px #000000;
+    color: rgb(126, 126, 126);
+}
+
+.news_bottom {
+    background-color: #1C1C1C ;
+    color: #f0f0f0;
+    width: 95%;
+    height: 20px;
+    line-height: -20px;
+    margin: auto;
+    padding-left: 15px;
+    padding-top: 1.5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    border-bottom: 3px solid #3282b8;
+    background-color: #353535;
+    text-transform: uppercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #d9d9d9;
+    text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0px;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-right: 1px solid #414141;
+}
+
+.topnav a:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+img{
+    width: "200";
+    height: 100px;
+    text-align: center;
+}
+
+.size{
+    font-size: 10px;
+}
+
+#wrap {
+	background-color: #2a2a2a;
+    margin-left: 355px;
+    max-width: 1180px;
+    display: inline-block;
+    border-left: 1px solid rgba(105, 105, 105, .5);
+    border-right: 1px solid rgba(105, 105, 105, .5);
+    overflow: hidden;
+}
+
+.footer {
+    color: #d0d0d0;
+    background-color: #202020;
+    background: transparent url("images/footer.jpg") no-repeat scroll 0% 0%;
+    border-top: 3px solid #3282b8;
+    border-bottom: 3px solid rgba(90, 90, 90, 0.44);
+    background-position: center;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.footerbox {
+    text-align: center;
+    height: 160px;
+    background: rgba(0, 0, 0, 0.35) none repeat scroll 0% 0%;
+    border: 1px solid #111;
+    text-shadow: 0 0 1px #555;
+    width: 555px;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: none;
+  }
+
+table {
+    width: 1132px;
+}
+
+#socialmedia{
+    width: "100";
+    height: 100px;
+    text-align: center;
+    padding: 3px;
+}
